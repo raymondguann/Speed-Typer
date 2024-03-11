@@ -1,23 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
     <title>Speed-Typer</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="wrapper">
-        <input type="text" class="input-field">
-        <div class="content-box">
-            <div class="typing-text">
-                <p id="paragraph"></p>
-            </div>
-            <div class="content">
-                <button>Try Again</button>
+    <main>
+        <h1>
+            Speed-Typer
+        </h1>
+        <div id="header">
+            <div id="info"></div>
+            <div id="buttons">
+                <button id="tryAgainBtn">Try Again</button>
             </div>
         </div>
-    </div>
+        <div id="game" tabindex="0">
+            <div id="words"></div>
+            <div id="cursor"></div>
+        </div>
+    </main>
 </body>
 </html>
